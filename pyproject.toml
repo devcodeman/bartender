@@ -1,0 +1,14 @@
+[project]
+name = "bartender"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gpiozero>=1.5.1",
+    "pigpio>=1.78",
+    "pyside6>=6.5.0",
+    "pytest>=6.2.2",
+    "pytest-qt>=4.0.0",
+    "spotipy>=2.18.0",
+]
